@@ -3,8 +3,6 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Tailwind CSS -->
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <!-- Google Fonts (DM Sans) -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,18 +10,117 @@
             href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
             rel="stylesheet"
         />
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <!-- Font Awesome CDN -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+
         <!-- Fav Icon -->
         <link
             rel="shortcut icon"
             href="./images/favicon.png"
             type="image/x-icon"
         />
+        <link rel="stylesheet" href="style.css" />
         <title>Furniture 1.0</title>
     </head>
 
-    <body>
+    <body class="box-border">
         <!-- Head Section -->
-        <header></header>
+        <header class="bg-[#3B5D50] max-w-screen max-h-screen">
+            <!-- Navigation Bar -->
+            <nav
+                class="lg:max-w-4/5 lg:mx-auto lg:py-5 lg:flex lg:items-center lg:justify-between"
+            >
+                <h3 class="text-zinc-50 lg:font-semibold lg:text-4xl">
+                    <a href="#">Furni Shop</a>
+                </h3>
+
+                <ul class="lg:flex lg:gap-10">
+                    <li>
+                        <a
+                            href="#"
+                            class="pb-2 border-b-4 text-gray-50 font-medium border-yellow-400"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            >Shop</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            >Services</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            >Blog</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            >About Us</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            >Contact Us</a
+                        >
+                    </li>
+                </ul>
+
+                <div
+                    class="lg:flex lg:items-center lg:justify-between lg:gap-10 text-zinc-50 lg:text-xl lg:font-light"
+                >
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </nav>
+
+            <!-- Banner Section -->
+            <section
+                class="lg:flex lg:justify-between lg:items-center lg:gap-5"
+            >
+                <div class="max-w-1/2 ml-[10%]">
+                    <h3
+                        class="lg:text-5xl lg:font-semibold text-zinc-50 lg:mb-8 lg:leading-14"
+                    >
+                        Modern Interior Design Studio
+                    </h3>
+                    <p class="text-zinc-300 lg:leading-7 lg:mb-8">
+                        Explore unique designs tailored for living beautifully.
+                        Quality craftsmanship, sustainable materials, and
+                        comfort you’ll cherish every day.
+                    </p>
+                    <div class="flex gap-5">
+                        <button>Shop Now</button>
+                        <button>Explore</button>
+                    </div>
+                </div>
+
+                <img
+                    class="max-w-1/2"
+                    src="./images/couch.png"
+                    alt=""
+                    srcset=""
+                />
+            </section>
+        </header>
 
         <!-- Main Section -->
         <main></main>
