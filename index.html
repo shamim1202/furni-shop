@@ -28,93 +28,116 @@
         <title>Furniture 1.0</title>
     </head>
 
-    <body class="box-border">
+    <body class="box-border m-0 p-0">
         <!-- Head Section -->
-        <header class="bg-[#3B5D50] max-w-screen max-h-screen">
+        <header class="bg-[#3B5D50] max-w-full max-h-full">
             <!-- Navigation Bar -->
             <nav
-                class="lg:max-w-4/5 lg:mx-auto lg:py-5 lg:flex lg:items-center lg:justify-between"
+                class="md:max-w-4/5 md:mx-auto py-2 md:py-4 lg:py-5 flex flex-col md:flex-row lg:flex-row items-center justify-center md:justify-between lg:justify-between text-center gap-y-5"
             >
-                <h3 class="text-zinc-50 lg:font-semibold lg:text-4xl">
+                <h3
+                    class="mt-5 md:m-0 text-gray-50 font-semibold lg:font-bold text-2xl md:text-3xl lg:text-4xl"
+                >
                     <a href="#">Furni Shop</a>
                 </h3>
 
-                <ul class="lg:flex lg:gap-10">
+                <ul class="md:flex md:gap-8 lg:flex lg:gap-10">
                     <li>
                         <a
                             href="#"
-                            class="pb-2 border-b-4 text-gray-50 font-medium border-yellow-400"
+                            class="lg:pb-2 lg:border-b-4 text-gray-50 font-medium text-sm md:text-base border-yellow-400"
                             >Home</a
                         >
                     </li>
+
                     <li>
                         <a
                             href="#"
-                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            class="lg:pb-2 md:hover:border-b-4 font-medium text-sm md:text-base text-gray-400 hover:border-yellow-400 hover:text-white"
                             >Shop</a
                         >
                     </li>
+
                     <li>
                         <a
                             href="#"
-                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            class="pb-2 hover:border-b-4 font-medium text-sm md:text-base text-gray-400 hover:border-yellow-400 hover:text-white"
                             >Services</a
                         >
                     </li>
+
                     <li>
                         <a
                             href="#"
-                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            class="pb-2 hover:border-b-4 font-medium text-sm md:text-base text-gray-400 hover:border-yellow-400 hover:text-white"
                             >Blog</a
                         >
                     </li>
+
                     <li>
                         <a
                             href="#"
-                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            class="pb-2 hover:border-b-4 font-medium text-sm md:text-base text-gray-400 hover:border-yellow-400 hover:text-white"
                             >About Us</a
                         >
                     </li>
+
                     <li>
                         <a
                             href="#"
-                            class="pb-2 hover:border-b-4 font-medium text-gray-300 hover:border-yellow-400 hover:text-white"
+                            class="pb-2 hover:border-b-4 font-medium text-sm md:text-base text-gray-400 hover:border-yellow-400 hover:text-white"
                             >Contact Us</a
                         >
                     </li>
                 </ul>
 
                 <div
-                    class="lg:flex lg:items-center lg:justify-between lg:gap-10 text-zinc-50 lg:text-xl lg:font-light"
+                    class="sm:mb-5 md:m-0 flex items-center justify-between gap-4 md:gap-6 lg:gap-8 text-gray-50 text-sm md:text-base lg:text-xl"
                 >
-                    <i class="fa-regular fa-user"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-user cursor-pointer"></i>
+                    <i class="fa-solid fa-cart-shopping cursor-pointer"></i>
                 </div>
             </nav>
 
             <!-- Banner Section -->
             <section
-                class="lg:flex lg:justify-between lg:items-center lg:gap-5"
+                class="mt-14 md:m-0 flex flex-col md:flex-row md:justify-between md:items-center md:gap-5"
             >
-                <div class="max-w-1/2 ml-[10%]">
+                <div
+                    class="max-w-full md:max-w-1/2 md:ml-[10%] text-center md:text-left"
+                >
                     <h3
-                        class="lg:text-5xl lg:font-semibold text-zinc-50 lg:mb-8 lg:leading-14"
+                        class="text-2xl md:text-4xl lg:text-5xl font-semibold md:font-bold text-gray-50 lg:mb-8 lg:leading-14 px-10 md:px-0 mb-6 md:mb-0"
                     >
                         Modern Interior Design Studio
                     </h3>
-                    <p class="text-zinc-300 lg:leading-7 lg:mb-8">
+
+                    <p
+                        class="text-sm md:text-base text-gray-300 lg:leading-7 px-4 md:p-0 mb-5 md:mb-8"
+                    >
                         Explore unique designs tailored for living beautifully.
                         Quality craftsmanship, sustainable materials, and
                         comfort you’ll cherish every day.
                     </p>
-                    <div class="flex gap-5">
-                        <button>Shop Now</button>
-                        <button>Explore</button>
+
+                    <div
+                        class="flex justify-center items-center md:justify-normal gap-5"
+                    >
+                        <button
+                            class="text-sm md:text-lg font-medium md:font-semibold text-gray-900 bg-yellow-400 rounded-4xl py-1.5 md:py-3 px-4 md:px-8 cursor-pointer"
+                        >
+                            Shop Now
+                        </button>
+                        <button
+                            class="text-sm md:text-lg font-medium md:font-semibold text-gray-50 border-2 border-gray-400 hover:border-gray-50 rounded-3xl md:rounded-4xl py-1.5 md:py-3 px-4 md:px-8 cursor-pointer"
+                        >
+                            Explore
+                        </button>
                     </div>
                 </div>
 
                 <img
-                    class="max-w-1/2"
+                    class="max-w-full md:max-w-1/2"
                     src="./images/couch.png"
                     alt=""
                     srcset=""
