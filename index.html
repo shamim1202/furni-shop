@@ -29,9 +29,11 @@
     </head>
 
     <body class="box-border m-0 p-0">
-        <!-- Head Section -->
+        <!----------------- Head Section ---------------->
+
         <header class="bg-[#3B5D50] max-w-full max-h-full">
-            <!-- Navigation Bar -->
+            <!-------------- Navigation Bar ----------------->
+
             <nav
                 class="md:max-w-4/5 md:mx-auto py-2 md:py-4 lg:py-5 flex flex-col md:flex-row lg:flex-row items-center justify-center md:justify-between lg:justify-between text-center gap-y-5"
             >
@@ -101,7 +103,7 @@
                 </div>
             </nav>
 
-            <!-- Banner Section -->
+            <!---------------- Banner Section ---------------->
             <section
                 class="mt-14 md:m-0 flex flex-col md:flex-row md:justify-between md:items-center md:gap-5"
             >
@@ -127,11 +129,13 @@
                     >
                         <button
                             class="text-sm md:text-lg font-medium md:font-semibold text-gray-900 bg-yellow-400 rounded-4xl py-1.5 md:py-3 px-4 md:px-8 cursor-pointer"
+                            type="button"
                         >
                             Shop Now
                         </button>
                         <button
                             class="text-sm md:text-lg font-medium md:font-semibold text-gray-50 border-2 border-gray-400 hover:border-gray-50 rounded-3xl md:rounded-4xl py-1.5 md:py-3 px-4 md:px-8 cursor-pointer"
+                            type="button"
                         >
                             Explore
                         </button>
@@ -148,7 +152,199 @@
         </header>
 
         <!-- Main Section -->
-        <main></main>
+        <main class="bg-[#EFF2F1]">
+            <!--------------- Products Card Section --------------->
+            <section
+                class="md:max-w-4/5 mx-auto py-14 md:py-24 px-4 md:p-0 flex flex-col md:flex-row"
+            >
+                <!----- Products Introduction ---->
+                <div class="md:flex-2/4 lg:flex-1/4 mb-8 md:m-0">
+                    <h3
+                        class="text-xl md:text-4xl font-medium md:font-semibold text-gray-800 text-center md:text-left"
+                    >
+                        Crafted with excellent material.
+                    </h3>
+
+                    <p class="text-gray-600 text-sm md:text-base my-3 md:my-6">
+                        Donec vitae odio quis nisl dapibus malesuada. Nullam ac
+                        aliquet velit. Aliquam vulputate velit imperdiet dolor
+                        tempor tristique.
+                    </p>
+
+                    <a
+                        class="flex items-center justify-center md:justify-start"
+                        href="#"
+                    >
+                        <button
+                            class="text-sm md:text-lg font-medium md:font-semibold text-gray-50 bg-gray-800 rounded-4xl py-1.5 md:py-3 px-4 md:px-8 cursor-pointer"
+                            type="button"
+                        >
+                            Explore
+                        </button>
+                    </a>
+                </div>
+
+                <!----- Products Card ---->
+                <div
+                    class="grid md:grid-cols-2 lg:grid-cols-3 md:w-full md:gap-3"
+                >
+                    <!-- card-1 -->
+                    <div class="flex flex-col place-items-center m-8 md:m-0">
+                        <img
+                            class="p-2 md:p-4 mb-2 md:mb-5"
+                            src="./images/products/product-1.png"
+                            alt=""
+                            srcset=""
+                        />
+                        <h4
+                            class="text-sm md:text-lg font-medium md:font-semibold text-gray-700"
+                        >
+                            Nordic Chair
+                        </h4>
+                        <h3
+                            class="md:text-xl font-bold md:font-extrabold text-gray-800"
+                        >
+                            $60.00
+                        </h3>
+                    </div>
+
+                    <!-- card-2 -->
+                    <div class="flex flex-col place-items-center m-8 md:m-0">
+                        <img
+                            class="p-2 md:p-4 mb-2 md:mb-5"
+                            src="./images/products/product-2.png"
+                            alt=""
+                            srcset=""
+                        />
+                        <h4
+                            class="text-sm md:text-lg font-medium md:font-semibold text-gray-700"
+                        >
+                            Kruzo Aero Chair
+                        </h4>
+                        <h3
+                            class="md:text-xl font-bold md:font-extrabold text-gray-800"
+                        >
+                            $75.00
+                        </h3>
+                    </div>
+
+                    <!-- card-3 -->
+                    <div class="flex flex-col place-items-center m-8 md:m-0">
+                        <img
+                            class="p-2 md:p-4 mb-2 md:mb-5"
+                            src="./images/products/product-3.png"
+                            alt=""
+                            srcset=""
+                        />
+                        <h4
+                            class="text-sm md:text-lg font-medium md:font-semibold text-gray-700"
+                        >
+                            Ergonomic Chair
+                        </h4>
+                        <h3
+                            class="md:text-xl font-bold md:font-extrabold text-gray-800"
+                        >
+                            $54.00
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!--------------- Why Choose Us Section --------------->
+            <section
+                class="md:max-w-4/5 mx-auto md:py-24 px-4 md:p-0 flex flex-col md:flex-row justify-between md:gap-x-32"
+            >
+                <!----- Text Container ---->
+                <div class="md:flex-1/2 mb-8 md:m-0">
+                    <h3
+                        class="text-xl md:text-4xl font-medium md:font-semibold text-gray-800 md:mb-4 text-center md:text-left"
+                    >
+                        Why Choose Us
+                    </h3>
+
+                    <p
+                        class="text-gray-600 text-sm md:text-base my-3 md:my-6 md:leading-7 md:mb-14"
+                    >
+                        Donec vitae odio quis nisl dapibus malesuada. Nullam ac
+                        aliquet velit. Aliquam vulputate velit imperdiet dolor
+                        tempor tristique.
+                    </p>
+
+                    <div
+                        class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 px-4 md:p-0"
+                    >
+                        <div class="text-center md:text-left">
+                            <!-- fa-regular fa-truck not setting -->
+                            <i
+                                class="md:text-3xl fa-regular fa-life-ring py-2 md:py-5"
+                            ></i>
+                            <h5 class="font-medium text-gray-700 md:mb-2">
+                                Fast & Free Shipping
+                            </h5>
+                            <p class="text-gray-600 text-sm md:text-[15px]">
+                                Dorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+
+                        <div class="text-center md:text-left">
+                            <i
+                                class="md:text-3xl fa-regular fa-life-ring py-2 md:py-5"
+                            ></i>
+                            <h5 class="font-medium text-gray-700 md:mb-2">
+                                24/7 Support
+                            </h5>
+                            <p class="text-gray-600 text-sm md:text-[15px]">
+                                Necessitatibus nesciunt ratione id doloribus
+                                perferendis eius ipsam impedit.
+                            </p>
+                        </div>
+
+                        <div class="text-center md:text-left">
+                            <i
+                                class="md:text-3xl fa-regular fa-handshake py-2 md:py-5"
+                            ></i>
+                            <h5 class="font-medium text-gray-700 md:mb-2">
+                                Easy to Shop
+                            </h5>
+                            <p class="text-gray-600 text-sm md:text-[15px]">
+                                Necessitatibus nesciunt ratione id doloribus
+                                perferendis eius ipsam impedit.
+                            </p>
+                        </div>
+
+                        <div class="text-center md:text-left">
+                            <i
+                                class="md:text-3xl fa-regular fa-money-bill-1 py-2 md:py-5"
+                            ></i>
+                            <h5 class="font-medium text-gray-700 md:mb-2">
+                                Hassle Free Returns
+                            </h5>
+                            <p class="text-gray-600 text-sm md:text-[15px]">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!------ Image Container ---->
+                <div class="md:flex-1/2 relative">
+                    <figure class="absolute z-0 md:-left-28 md:-top-20">
+                        <img src="./images/dots-yellow.svg" alt="" srcset="" />
+                    </figure>
+
+                    <figure class="absolute z-10">
+                        <img
+                            class="rounded-4xl"
+                            src="./images/why-choose-us-img.jpg"
+                            alt=""
+                            srcset=""
+                        />
+                    </figure>
+                </div>
+            </section>
+        </main>
         <!-- Footer Section -->
         <footer></footer>
     </body>
