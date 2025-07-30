@@ -276,7 +276,7 @@
                         <div class="text-center md:text-left">
                             <!-- fa-regular fa-truck not setting -->
                             <i
-                                class="md:text-3xl fa-regular fa-life-ring py-2 md:py-5"
+                                class="md:text-3xl fa-regular fa-truck py-2 md:py-5"
                             ></i>
                             <h5 class="font-medium text-gray-700 md:mb-2">
                                 Fast & Free Shipping
@@ -386,7 +386,7 @@
                         </div>
 
                         <div
-                            class="absolute left-[160px] md:left-1/2 top-[100px] md:top-[200px] z-30"
+                            class="absolute left-[160px] md:left-1/2 top-[120px] md:top-[200px] z-30"
                         >
                             <img
                                 class="w-full rounded-xl md:rounded-3xl"
@@ -566,13 +566,14 @@
                 <div class="relative">
                     <div class="flex justify-between items-center mt-16 md:m-0">
                         <img
-                            class="bg-gray-300 rounded-full md:p-3 md:w-14 hover:bg-[#4e88729d]"
+                            class="bg-gray-300 rounded-full md:p-3 md:w-14 hover:bg-[#4e88729d] cursor-pointer"
                             src="./images/icons/prev-arrow.png"
                             alt=""
                             srcset=""
                         />
+
                         <img
-                            class="bg-gray-300 rounded-full md:p-3 md:w-14 hover:bg-[#4e88729d]"
+                            class="bg-gray-300 rounded-full md:p-3 md:w-14 hover:bg-[#4e88729d] cursor-pointer"
                             src="./images/icons/next-arrow.png"
                             alt=""
                             srcset=""
@@ -580,7 +581,7 @@
                     </div>
 
                     <div
-                        class="absolute left-1/2 top-8 md:top-24 -translate-1/2 text-center"
+                        class="absolute left-1/2 top-8 md:top-24 -translate-1/2 text-center w-full"
                     >
                         <img
                             class="w-14 md:w-24 mx-auto rounded-full"
@@ -601,7 +602,7 @@
             </section>
 
             <!---------------- Recent Blog Section ---------------->
-            <section class="md:max-w-4/5 mx-auto px-4 md:p-0 my-16 md:my-36">
+            <section class="md:max-w-4/5 mx-auto px-4 md:p-0 my-20 md:my-40">
                 <!-- content section -->
                 <div class="py-5 md:py-10 flex justify-between items-center">
                     <h3
@@ -609,6 +610,7 @@
                     >
                         Recent Blog
                     </h3>
+
                     <a
                         class="underline text-sm md:text-base font-medium md:font-semibold"
                         href="#"
@@ -617,9 +619,97 @@
                 </div>
 
                 <!-- card section -->
-                <div></div>
+                <div class="flex flex-col md:flex-row gap-5">
+                    <div>
+                        <img
+                            class="rounded-3xl md:rounded-4xl"
+                            src="./images/post-1.jpg"
+                            alt=""
+                            srcset=""
+                        />
+
+                        <div class="p-2 md:p-3">
+                            <h4
+                                class="md:text-[17px] font-medium md:font-semibold text-gray-800"
+                            >
+                                First Time Home Owner Ideas
+                            </h4>
+                            <p
+                                class="py-1.5 md:py-3 text-sm md:text-base text-gray-600"
+                            >
+                                by
+                                <span class="font-semibold text-gray-800"
+                                    >Kristin Watson</span
+                                >
+                                on
+                                <span class="font-semibold text-gray-800"
+                                    >Dec 19, 2021</span
+                                >
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img
+                            class="rounded-3xl md:rounded-4xl"
+                            src="./images/post-2.jpg"
+                            alt=""
+                            srcset=""
+                        />
+
+                        <div class="p-3 md:p-4">
+                            <h4
+                                class="md:text-[17px] font-medium md:font-semibold text-gray-800"
+                            >
+                                How To Keep Your Furniture Clean
+                            </h4>
+                            <p
+                                class="py-1.5 md:py-3 text-sm md:text-base text-gray-600"
+                            >
+                                by
+                                <span class="font-semibold text-gray-800">
+                                    Robert Fox</span
+                                >
+                                on
+                                <span class="font-semibold text-gray-800"
+                                    >Dec 19, 2021</span
+                                >
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img
+                            class="rounded-3xl md:rounded-4xl"
+                            src="./images/post-1.jpg"
+                            alt=""
+                            srcset=""
+                        />
+
+                        <div class="p-3 md:p-4">
+                            <h4
+                                class="md:text-[17px] font-medium md:font-semibold text-gray-800"
+                            >
+                                Small Space Furniture Apartment Ideas
+                            </h4>
+                            <p
+                                class="py-1.5 md:py-3 text-sm md:text-base text-gray-600"
+                            >
+                                by
+                                <span class="font-semibold text-gray-800"
+                                    >Kristin Watson</span
+                                >
+                                on
+                                <span class="font-semibold text-gray-800"
+                                    >Dec 19, 2021</span
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
         </main>
+
         <!-- Footer Section -->
         <footer></footer>
     </body>
