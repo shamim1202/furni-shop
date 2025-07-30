@@ -581,7 +581,7 @@
                     </div>
 
                     <div
-                        class="absolute left-1/2 top-8 md:top-24 -translate-1/2 text-center w-full"
+                        class="absolute left-1/2 top-8 md:top-24 -translate-1/2 text-center max-w-2/3"
                     >
                         <img
                             class="w-14 md:w-24 mx-auto rounded-full"
@@ -602,7 +602,7 @@
             </section>
 
             <!---------------- Recent Blog Section ---------------->
-            <section class="md:max-w-4/5 mx-auto px-4 md:p-0 my-20 md:my-40">
+            <section class="md:max-w-4/5 mx-auto px-4 pb-20 md:pb-48">
                 <!-- content section -->
                 <div class="py-5 md:py-10 flex justify-between items-center">
                     <h3
@@ -711,6 +711,50 @@
         </main>
 
         <!-- Footer Section -->
-        <footer></footer>
+        <footer class="md:max-w-4/5 mx-auto px-4 md:pb-48 relative">
+            <div class="">
+                <div class="pt-10 md:p-0 md:my-20">
+                    <div class="py-3 flex gap-2 items-center">
+                        <i
+                            class="fa-regular fa-envelope text-lg md:text-2xl text-gray-400"
+                        ></i>
+                        <h3
+                            class="md:text-xl font-medium md:font-semibold text-gray-600"
+                        >
+                            Subscribe to Newsletter
+                        </h3>
+                    </div>
+
+                    <div class="flex flex-col md:flex-row gap-3 md:gap-4">
+                        <input
+                            class="px-3 py-2 md:px-4 md:py-3 border border-gray-400 rounded-lg md:rounded-xl w-full md:w-1/4"
+                            type="text"
+                            placeholder="Enter your name"
+                        />
+
+                        <input
+                            class="px-3 py-2 md:px-4 md:py-3 border border-gray-400 rounded-lg md:rounded-xl w-full md:w-1/4"
+                            type="email"
+                            name=""
+                            id=""
+                            placeholder="Enter your email"
+                        />
+
+                        <button
+                            class="bg-[#3B5D50] hover:bg-[#2f4d42] text-white py-3 md:px-8 rounded-lg md:rounded-xl cursor-pointer"
+                            type="submit"
+                        >
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+                <img
+                    class="max-w-2/5 absolute -top-[60px] right-0 md:-top-3/4 md:right-0"
+                    src="./images/sofa.png"
+                    alt=""
+                    srcset=""
+                />
+            </div>
+        </footer>
     </body>
 </html>
